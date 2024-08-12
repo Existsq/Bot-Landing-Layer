@@ -1,9 +1,9 @@
-import NextMessage from "@/components/NextMessage";
-import SimpleMessage from "@/components/SimpleMessage";
-import TitleBar from "@/components/TitleBar";
-import Divider from "@/components/Divider";
-import ChannelStarter from "@/components/ChannelStarter";
-import ArchiveInfoFooter from "@/components/ArchiveInfoFooter";
+import NextMessage from "@/components/ticket/NextMessage";
+import SimpleMessage from "@/components/ticket/SimpleMessage";
+import TitleBar from "@/components/ticket/TitleBar";
+import Divider from "@/components/ticket/Divider";
+import ChannelStarter from "@/components/ticket/ChannelStarter";
+import ArchiveInfoFooter from "@/components/ticket/ArchiveInfoFooter";
 
 export default function Ticket() {
   return (

@@ -1,13 +1,13 @@
-import FeatureFirst from "@/components/FeatureFirst";
-import UseApp from "@/components/UseApp";
-import Stats from "@/components/Stats";
-import Header from "@/components/Header";
-import Banner from "@/components/Banner";
-import Starter from "@/components/Starter";
-import Price from "@/components/Prices";
-import News from "@/components/News";
-import Blog from "@/components/Blog";
-import FeatureSecond from "@/components/FeatureSecond";
+import FeatureFirst from "@/components/main/FeatureFirst";
+import UseApp from "@/components/main/UseApp";
+import Stats from "@/components/main/Stats";
+import Header from "@/components/main/Header";
+import Banner from "@/components/main/Banner";
+import HeroSection from "@/components/main/HeroSection";
+import Price from "@/components/main/Subscripitons";
+import News from "@/components/main/Footer";
+import Blog from "@/components/main/Blog";
+
 
 export default function Example() {
   return (
@@ -18,7 +18,7 @@ export default function Example() {
       </div>
 
       <div className="-z-10">
-        <Starter></Starter>
+        <HeroSection></HeroSection>
       </div>
 
       <FeatureFirst></FeatureFirst>

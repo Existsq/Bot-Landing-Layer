@@ -28,14 +28,14 @@ export default function Example() {
   }
 
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900 pt-16 sm:pt-24 lg:pt-32 pb-[32px]">
+    <div className="relative isolate overflow-hidden bg-white pt-16 sm:pt-24 lg:pt-32 pb-[32px]">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
           <div className="max-w-xl lg:max-w-lg">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
               Subscribe to our newsletter.
             </h2>
-            <p className="mt-4 text-lg leading-8 text-gray-300">
+            <p className="mt-4 text-lg leading-8 text-gray-500">
               Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing
               velit quis. Duis tempor incididunt dolore.
             </p>
@@ -52,7 +52,7 @@ export default function Example() {
                 autoComplete="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className={`min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset focus:ring-2 focus:ring-inset focus:outline-none sm:text-sm sm:leading-6 ${
+                className={`min-w-0 flex-auto rounded-md border-[1px] bg-white/5 px-3.5 py-2 text-gray-600 border-gray-200 shadow-sm ring-1 ring-inset focus:ring-2 focus:ring-inset focus:outline-none sm:text-sm sm:leading-6 ${
                   hasError
                     ? "ring-red-500 focus:outline-none" // Красная обводка при ошибке
                     : "ring-white/10 focus:outline-none" // Обычная обводка
@@ -76,27 +76,27 @@ export default function Example() {
           </div>
           <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
             <div className="flex flex-col items-start">
-              <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+              <div className="rounded-md bg-white/5 p-2 ring-1 ring-indigo-500/35">
                 <CalendarDaysIcon
                   aria-hidden="true"
-                  className="h-6 w-6 text-white"
+                  className="h-6 w-6 text-indigo-600"
                 />
               </div>
-              <dt className="mt-4 font-semibold text-white">Weekly articles</dt>
-              <dd className="mt-2 leading-7 text-gray-400">
+              <dt className="mt-4 font-semibold text-gray-700">Weekly articles</dt>
+              <dd className="mt-2 leading-7 text-gray-500">
                 Non laboris consequat cupidatat laborum magna. Eiusmod non irure
                 cupidatat duis commodo amet.
               </dd>
             </div>
             <div className="flex flex-col items-start">
-              <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+              <div className="rounded-md bg-white/5 p-2 ring-1 ring-indigo-500/35">
                 <HandRaisedIcon
                   aria-hidden="true"
-                  className="h-6 w-6 text-white"
+                  className="h-6 w-6 text-indigo-600"
                 />
               </div>
-              <dt className="mt-4 font-semibold text-white">No spam</dt>
-              <dd className="mt-2 leading-7 text-gray-400">
+              <dt className="mt-4 font-semibold text-gray-700">No spam</dt>
+              <dd className="mt-2 leading-7 text-gray-500">
                 Officia excepteur ullamco ut sint duis proident non adipisicing.
                 Voluptate incididunt anim.
               </dd>
@@ -107,95 +107,95 @@ export default function Example() {
           <div className="mx-auto max-w-7xl">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10 text-base">
               <div>
-                <h3 className="font-semibold text-white">Tickets Bot</h3>
+                <h3 className="font-semibold text-black">Tickets Bot</h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       Features
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       Documentation
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       Setup
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       FAQ
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       Invite
                     </a>
                   </li>
                 </ul>
               </div>
               <div>
-                <h3 className="font-semibold text-white">Support</h3>
+                <h3 className="font-semibold text-black">Support</h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       Help Center
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       Contact Us
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       Privacy Policy
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       Terms of use
                     </a>
                   </li>
                 </ul>
               </div>
               <div>
-                <h3 className="font-semibold text-white">Social</h3>
+                <h3 className="font-semibold text-black">Social</h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       Twitter
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       Facebook
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       Instagram
                     </a>
                   </li>
                 </ul>
               </div>
               <div>
-                <h3 className="font-semibold text-white">Subscribe</h3>
+                <h3 className="font-semibold text-black">Subscribe</h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       Twitter
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       Facebook
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-white">
+                    <a href="#" className="text-gray-500 hover:text-indigo-600">
                       Instagram
                     </a>
                   </li>
@@ -205,16 +205,16 @@ export default function Example() {
             <div className="mt-8 border-t border-white/10 pt-8 text-center text-sm text-gray-400 sm:flex sm:items-center sm:justify-between">
               <p>© 2024 Ticket Bot. All rights reserved.</p>
               <div className="mt-6 flex justify-center space-x-6 sm:mt-0 sm:justify-end">
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="#" className="text-gray-500 hover:text-indigo-500">
                   <FaTwitter className="h-5 w-5" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="#" className="text-gray-500 hover:text-indigo-500">
                   <FaFacebook className="h-5 w-5" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="#" className="text-gray-500 hover:text-indigo-500">
                   <FaInstagram className="h-5 w-5" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="#" className="text-gray-500 hover:text-indigo-500">
                   <FaLinkedin className="h-5 w-5" />
                 </a>
               </div>
