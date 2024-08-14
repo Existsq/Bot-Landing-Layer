@@ -165,7 +165,7 @@ export default function Example() {
             </PopoverPanel>
           </Popover>
 
-          <a href="/login" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/dashboard" className="text-sm font-semibold leading-6 text-gray-900">
             Dashboard
           </a>
           <a href="/documentation" className="text-sm font-semibold leading-6 text-gray-900">

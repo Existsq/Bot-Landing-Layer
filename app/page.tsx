@@ -7,9 +7,10 @@ import HeroSection from "@/components/main/HeroSection";
 import Price from "@/components/main/Subscripitons";
 import News from "@/components/main/Footer";
 import Blog from "@/components/main/Blog";
+import { createPortal } from "react-dom";
 
 
-export default function Example() {
+export default function Home() {
   return (
     <>
       <div className="sticky top-0 z-[100]">
